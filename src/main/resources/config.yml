@@ -1,0 +1,46 @@
+# Сколько часов лот висит на аукционе
+active-hours: 24
+# Сколько часов истёкший лот ждёт владельца, потом удаляется навсегда
+expired-hours: 24
+# Максимум одновременно активных лотов у игрока
+max-listings: 5
+# Комиссия аукциона в процентах (продавец получает цену минус комиссия)
+commission-percent: 5
+# Ограничения цены
+min-price: 1
+max-price: 1000000000
+
+messages:
+  only-player: '&c✕ Только для игроков'
+  no-permission: '&c✕ У тебя нет прав'
+  no-economy: '&c✕ Экономика недоступна, сообщи администрации'
+  reloaded: '&a✓ Конфиг перезагружен'
+  usage: ' &7➥ &fИспользование: &7/ah &8| &7/ah sell <цена> &8| &7/ah expired'
+  usage-sell: ' &7➥ &fИспользование: &7/ah sell <цена>'
+  bad-price: '&c✕ Некорректная цена'
+  price-limits: '&c✕ Цена должна быть от &f{min} &cдо &f{max}'
+  no-item: '&c✕ Возьми предмет в руку'
+  limit-reached: '&c✕ Лимит лотов: &f{max}'
+  listed: '&a✓ Выставлено: &f{item} &aза &6{price}'
+  lot-gone: '&c✕ Этот лот уже недоступен'
+  no-money: '&c✕ Не хватает денег, нужно &6{price}'
+  no-space: '&c✕ В инвентаре нет места'
+  bought: '&a✓ Куплено: &f{item} &aза &6{price}'
+  sold: '&8[&6Аукцион&8] &e{player} &aкупил &f{item} &aи ты получил &6{money}'
+  cancelled: '&a✓ Лот снят с продажи: &f{item}'
+  claimed: '&a✓ Ты забрал: &f{item}'
+  expired-notify: '&8[&6Аукцион&8] &eУ тебя &f{count} &eистёкших лотов. Забери: &f/ah expired'
+
+  gui-title-main: '&8Аукцион &7({page}/{pages})'
+  gui-title-expired: '&8Истёкшие товары &7({page}/{pages})'
+  btn-prev: '&e◀ Назад'
+  btn-next: '&eВперёд ▶'
+  btn-expired: '&6Истёкшие товары &7({count})'
+  btn-back: '&6Назад к аукциону'
+  lore-price: '&7Цена: &6{price}'
+  lore-seller: '&7Продавец: &f{player}'
+  lore-time-left: '&7Осталось: &f{time}'
+  lore-delete-in: '&7Удалится через: &c{time}'
+  lore-click-buy: '&a▶ Нажми, чтобы купить'
+  lore-click-cancel: '&e▶ Это твой лот. Нажми, чтобы снять'
+  lore-click-claim: '&a▶ Нажми, чтобы забрать'

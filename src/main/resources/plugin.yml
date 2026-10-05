@@ -1,0 +1,25 @@
+name: SimpleAuction
+version: 1.0.0
+main: me.simpleauction.SimpleAuction
+api-version: '1.20'
+depend: [Vault]
+softdepend: [Essentials, CMI]
+description: Аукцион с оплатой через Vault
+commands:
+  ah:
+    description: Аукцион
+    usage: /ah [sell <цена> | expired]
+    aliases: [auction, auc]
+permissions:
+  auction.use:
+    description: Открывать аукцион
+    default: true
+  auction.sell:
+    description: Выставлять предметы
+    default: true
+  auction.buy:
+    description: Покупать предметы
+    default: true
+  auction.admin:
+    description: Перезагрузка конфига
+    default: op
